@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(/assets/blurry-gradient-haikei.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.navbaar{
+    
+}
+
+header .nav{
+    background-color: #05002b;
+    color: aliceblue;
+}
+.p0{
+    padding: 0;
+}
+.col-1{
+    height: 100vh;
+}
+.proc100{
+    height: 100vh;
+    width: 100vh;
+}
+
+.h100{
+    height: 100vh;
+}
+
+.navbar {
+    width: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  
+  .navbar-nav {
+    margin-top: auto;
+  }
+  
+.nav-link i{
+    transform: rotate(90deg);
+}
+
+  .navbar-nav .nav-link {
+    font-size: 24px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    padding: 10px, 0, 5px, 0;
+  }
+  .nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+
+h1{
+    font-size: 64px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.hello{
+    margin-top: 10px;
+    margin-bottom: 40px;  
+}
+
+.music-main{
+    padding-left: 7px;
+}
+
+.music-card img{
+    border-radius: 10%;
+}
+
+@media screen and (min-width: 100px){
+    .yscrollable{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-auto-rows: 1fr;
+        height: auto;
+    }
+    .bigScreen{
+        display: none;
+    }
+}
+@media screen and (min-width: 500px){
+    .yscrollable{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-auto-rows: 1fr;
+        height: auto;
+    }
+    .bigScreen{
+        display: none;
+    }
+}
+@media screen and (min-width: 700px){
+    .yscrollable{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-auto-rows: 1fr;
+        height: auto;
+    }
+    .bigScreen{
+        display: flex;
+    }
+
+}
+@media screen and (min-width: 1000px){
+    .yscrollable{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-auto-rows: 1fr;
+        height: auto;
+    }
+}
+
+.content{
+    flex: 1;
+}
+.albumFrame{
+    margin-top: 10px;
+    border: #05002b;
+    border-radius: 2px;
+}

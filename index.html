@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="js/audioPlayer.js" defer></script>
+  <script src="js/index.js" defer></script>
+  <script src="js/globalVar.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/audioPlayer.css">
+  <link rel="stylesheet" href="css/size.css">
+
+
+</head>
+
+<body>
+  <div class="audio-player">
+    <audio id="audio" src="path/to/audio-file.mp3"></audio>
+    <div class="player-controls">
+      <div class="play-pause-button">
+        <i class="bi bi-play"></i>
+      </div>
+      <div class="song-info">
+        <div class="song-image">
+          <img src="path/to/song-image.jpg" alt="Выбериии песню">
+        </div>
+        <div class="song-details">
+          <div class="song-title">Выбери песню</div>
+          <div class="song-artist">Выбери песню</div>
+          <div class="song-duration">
+            <span class="current-time">0</span> /
+            <span class="total-time">2:37</span>
+          </div>
+        </div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+    </div>
+  </div>
+  <div class="col-2 col-sm-1 pl0 h100 navbaar">
+    <header class="verticalNavbar h100">
+      <ul class="nav navbar-nav nav-fill container-fluid h100">
+        <li class="nav-item">
+          <a class="nav-link" href="#picks"><i class="bi bi-stars"></i>&nbsp;Подборка</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#albums"><i class="bi bi-disc-fill"></i>&nbsp;Альбомы</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#singers"><i class="bi bi-person-fill"></i>&nbsp;Исполнители</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#account"><i class="bi bi-info-circle-fill"></i>&nbsp;Аккаунт</a>
+        </li>
+      </ul>
+    </header>
+  </div>
+    <div class="auFill" id="picks"></div>
+    <div class="container-fluid p0 row content1" >
+    
+      <div class="col-10 col-sm-11 pl0 h100 d-flex flex-column">
+        <div class="content">
+          <div class="d-flex justify-content-between text-white align-items-center hello">
+            <h2 class="bigScreen">Привет, Пользователь</h2>
+            <h1>Подборка</h1>
+          </div>
+          <div class="yscrollable quickpicks overflow-auto">
+            <!--quick picks here-->
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+  
+  <div class="auFill" id="albums">
+
+  </div>
+    <div class="container-fluid p0 row content2" >
+      <div class="col-10 col-sm-11 pl0 h100 d-flex flex-column">
+        <div class="content">
+          <div class="d-flex justify-content-between text-white align-items-center hello">
+            <h1>Альбомы</h1>
+          </div>
+          <div class="yscrollable albums overflow-auto">
+            <!--albums here-->
+          </div>
+        </div>
+        </div>
+        
+    </div>
+
+<div class="auFill" id="singers"></div>
+  <div class="container-fluid p0 row content3" >
+    <div class="col-10 col-sm-11 pl0 h100 d-flex flex-column">
+      <div class="content">
+        <div class="d-flex justify-content-between text-white align-items-center hello">
+          <h1>Исполнители</h1>
+        </div>
+        <div class="yscrollable albums overflow-auto text-white">
+          Soon... Мы работаем над этим разделом.
+        </div>
+      </div>
+      
+  </div>
+</div>
+  <div class="auFill" id="account"></div>
+  <div class="container-fluid p0 row content4" >
+    <div class="col-10 col-sm-11 pl0 h100 d-flex flex-column">
+      <div class="content">
+        <div class="d-flex justify-content-between text-white align-items-center hello">
+          <h1>Ваш аккаунт</h1>
+        </div>
+        <div class="text-white">
+          Soon... Мы работаем над этим разделом.
+        </div>
+      </div>
+      
+  </div>
+</div>
+
+<div class="auFill" id="albumFrame"></div>
+  <div class="container-fluid p0 row content4" >
+    <div class="col-10 col-sm-11 pl0 h100 d-flex flex-column">
+      <div class="content">
+        <iframe class="albumFrame" src="album.html" frameborder="0" height="100%" width="100%"></iframe>
+      </div>
+      
+  </div>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>
