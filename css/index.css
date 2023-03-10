@@ -3,7 +3,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background-image: url(https://ms0ur.github.io/assets/blurry-gradient-haikei.png);
+    background-image: url("/assets/blurry-gradient-haikei.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
